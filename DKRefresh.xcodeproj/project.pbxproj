@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B0DFF7E1F973106009A1E7E /* DKTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DFF7D1F973106009A1E7E /* DKTableViewController.swift */; };
+		9B0DFF801F973575009A1E7E /* UIViewController+Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DFF7F1F973575009A1E7E /* UIViewController+Example.swift */; };
+		9B0DFF821F974899009A1E7E /* DKRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B0DFF811F974899009A1E7E /* DKRefresh.bundle */; };
+		9B5AAD4A1F96FF8D009D3E8E /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5AAD491F96FF8D009D3E8E /* Example.swift */; };
+		9B8EEECC1EFA6721007314B8 /* DKRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8EEECB1EFA6721007314B8 /* DKRefreshHeader.swift */; };
+		9B8EEECE1EFA6CDC007314B8 /* UIScrollView+DKRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8EEECD1EFA6CDC007314B8 /* UIScrollView+DKRefresh.swift */; };
+		9B8EEED01EFB7057007314B8 /* DKRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8EEECF1EFB7057007314B8 /* DKRefreshFooter.swift */; };
+		9B8EEED21EFB9F04007314B8 /* DKRefreshStateHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8EEED11EFB9F04007314B8 /* DKRefreshStateHeader.swift */; };
+		9B99D54C1F975A5A003D2184 /* DKChiBaoZiHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99D54B1F975A5A003D2184 /* DKChiBaoZiHeader.swift */; };
+		9B99D54E1F97652E003D2184 /* DKDIYHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99D54D1F97652E003D2184 /* DKDIYHeader.swift */; };
+		9B99D5501F9877AC003D2184 /* DKChiBaoZiFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99D54F1F9877AC003D2184 /* DKChiBaoZiFooter.swift */; };
+		9B99D5521F9899BA003D2184 /* DKChiBaoZiFooter2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99D5511F9899BA003D2184 /* DKChiBaoZiFooter2.swift */; };
+		9B99D5541F989C22003D2184 /* DKDIYAutoFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99D5531F989C22003D2184 /* DKDIYAutoFooter.swift */; };
+		9B99D5561F98A00E003D2184 /* DKDIYBackFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99D5551F98A00E003D2184 /* DKDIYBackFooter.swift */; };
+		9B99D5581F98AE1E003D2184 /* DKCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99D5571F98AE1E003D2184 /* DKCollectionViewController.swift */; };
+		9B99D55A1F998ED1003D2184 /* DKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99D5591F998ED1003D2184 /* DKWebViewController.swift */; };
+		9BCE426F1F0F881E008B0CA4 /* DKRefreshNormalHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE426E1F0F881E008B0CA4 /* DKRefreshNormalHeader.swift */; };
+		9BCE42711F0F97B3008B0CA4 /* DKRefreshGifHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE42701F0F97B3008B0CA4 /* DKRefreshGifHeader.swift */; };
+		9BCE42731F137C68008B0CA4 /* DKRefreshBackFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE42721F137C68008B0CA4 /* DKRefreshBackFooter.swift */; };
+		9BCE42751F14B37A008B0CA4 /* DKRefreshAutoFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE42741F14B37A008B0CA4 /* DKRefreshAutoFooter.swift */; };
+		9BCE42771F14C968008B0CA4 /* DKRefreshBackStateFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE42761F14C968008B0CA4 /* DKRefreshBackStateFooter.swift */; };
+		9BCE427D1F1DBA3F008B0CA4 /* DKRefreshBackNormalFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE427C1F1DBA3F008B0CA4 /* DKRefreshBackNormalFooter.swift */; };
+		9BCE427F1F1DECEF008B0CA4 /* DKRefreshBackGifFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE427E1F1DECEF008B0CA4 /* DKRefreshBackGifFooter.swift */; };
+		9BCE42811F1F28CB008B0CA4 /* DKRefreshAutoStateFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE42801F1F28CB008B0CA4 /* DKRefreshAutoStateFooter.swift */; };
+		9BCE42831F1F4125008B0CA4 /* DKRefreshAutoNormalFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE42821F1F4125008B0CA4 /* DKRefreshAutoNormalFooter.swift */; };
+		9BCE42851F1F4381008B0CA4 /* DKRefreshAutoGifFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE42841F1F4381008B0CA4 /* DKRefreshAutoGifFooter.swift */; };
+		9BFAEA731EFA1F110010F597 /* DKRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFAEA711EFA1F110010F597 /* DKRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BFAEA801EFA1F710010F597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFAEA7F1EFA1F710010F597 /* AppDelegate.swift */; };
+		9BFAEA821EFA1F710010F597 /* DKExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFAEA811EFA1F710010F597 /* DKExampleViewController.swift */; };
+		9BFAEA851EFA1F710010F597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFAEA831EFA1F710010F597 /* Main.storyboard */; };
+		9BFAEA871EFA1F710010F597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BFAEA861EFA1F710010F597 /* Assets.xcassets */; };
+		9BFAEA8A1EFA1F710010F597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFAEA881EFA1F710010F597 /* LaunchScreen.storyboard */; };
+		9BFAEA911EFA20B60010F597 /* DKRefreshComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFAEA901EFA20B60010F597 /* DKRefreshComponent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B0DFF7D1F973106009A1E7E /* DKTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKTableViewController.swift; sourceTree = "<group>"; };
+		9B0DFF7F1F973575009A1E7E /* UIViewController+Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Example.swift"; sourceTree = "<group>"; };
+		9B0DFF811F974899009A1E7E /* DKRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DKRefresh.bundle; sourceTree = "<group>"; };
+		9B5AAD491F96FF8D009D3E8E /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		9B8EEECB1EFA6721007314B8 /* DKRefreshHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKRefreshHeader.swift; sourceTree = "<group>"; };
+		9B8EEECD1EFA6CDC007314B8 /* UIScrollView+DKRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+DKRefresh.swift"; sourceTree = "<group>"; };
+		9B8EEECF1EFB7057007314B8 /* DKRefreshFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKRefreshFooter.swift; sourceTree = "<group>"; };
+		9B8EEED11EFB9F04007314B8 /* DKRefreshStateHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKRefreshStateHeader.swift; sourceTree = "<group>"; };
+		9B99D54B1F975A5A003D2184 /* DKChiBaoZiHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKChiBaoZiHeader.swift; sourceTree = "<group>"; };
+		9B99D54D1F97652E003D2184 /* DKDIYHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKDIYHeader.swift; sourceTree = "<group>"; };
+		9B99D54F1F9877AC003D2184 /* DKChiBaoZiFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKChiBaoZiFooter.swift; sourceTree = "<group>"; };
+		9B99D5511F9899BA003D2184 /* DKChiBaoZiFooter2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKChiBaoZiFooter2.swift; sourceTree = "<group>"; };
+		9B99D5531F989C22003D2184 /* DKDIYAutoFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKDIYAutoFooter.swift; sourceTree = "<group>"; };
+		9B99D5551F98A00E003D2184 /* DKDIYBackFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKDIYBackFooter.swift; sourceTree = "<group>"; };
+		9B99D5571F98AE1E003D2184 /* DKCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKCollectionViewController.swift; sourceTree = "<group>"; };
+		9B99D5591F998ED1003D2184 /* DKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKWebViewController.swift; sourceTree = "<group>"; };
+		9BCE426E1F0F881E008B0CA4 /* DKRefreshNormalHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKRefreshNormalHeader.swift; sourceTree = "<group>"; };
+		9BCE42701F0F97B3008B0CA4 /* DKRefreshGifHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKRefreshGifHeader.swift; sourceTree = "<group>"; };
+		9BCE42721F137C68008B0CA4 /* DKRefreshBackFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKRefreshBackFooter.swift; sourceTree = "<group>"; };
+		9BCE42741F14B37A008B0CA4 /* DKRefreshAutoFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKRefreshAutoFooter.swift; sourceTree = "<group>"; };
+		9BCE42761F14C968008B0CA4 /* DKRefreshBackStateFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKRefreshBackStateFooter.swift; sourceTree = "<group>"; };
+		9BCE427C1F1DBA3F008B0CA4 /* DKRefreshBackNormalFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKRefreshBackNormalFooter.swift; sourceTree = "<group>"; };
+		9BCE427E1F1DECEF008B0CA4 /* DKRefreshBackGifFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKRefreshBackGifFooter.swift; sourceTree = "<group>"; };
+		9BCE42801F1F28CB008B0CA4 /* DKRefreshAutoStateFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKRefreshAutoStateFooter.swift; sourceTree = "<group>"; };
+		9BCE42821F1F4125008B0CA4 /* DKRefreshAutoNormalFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKRefreshAutoNormalFooter.swift; sourceTree = "<group>"; };
+		9BCE42841F1F4381008B0CA4 /* DKRefreshAutoGifFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKRefreshAutoGifFooter.swift; sourceTree = "<group>"; };
+		9BFAEA6E1EFA1F110010F597 /* DKRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFAEA711EFA1F110010F597 /* DKRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKRefresh.h; sourceTree = "<group>"; };
+		9BFAEA721EFA1F110010F597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BFAEA7D1EFA1F710010F597 /* DKRefreshDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKRefreshDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFAEA7F1EFA1F710010F597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BFAEA811EFA1F710010F597 /* DKExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKExampleViewController.swift; sourceTree = "<group>"; };
+		9BFAEA841EFA1F710010F597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BFAEA861EFA1F710010F597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BFAEA891EFA1F710010F597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BFAEA8B1EFA1F710010F597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BFAEA901EFA20B60010F597 /* DKRefreshComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKRefreshComponent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BFAEA6A1EFA1F110010F597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFAEA7A1EFA1F710010F597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B99D54A1F9759AC003D2184 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				9B99D54B1F975A5A003D2184 /* DKChiBaoZiHeader.swift */,
+				9B99D54F1F9877AC003D2184 /* DKChiBaoZiFooter.swift */,
+				9B99D5511F9899BA003D2184 /* DKChiBaoZiFooter2.swift */,
+				9B99D54D1F97652E003D2184 /* DKDIYHeader.swift */,
+				9B99D5531F989C22003D2184 /* DKDIYAutoFooter.swift */,
+				9B99D5551F98A00E003D2184 /* DKDIYBackFooter.swift */,
+			);
+			path = custom;
+			sourceTree = "<group>";
+		};
+		9BFAEA641EFA1F100010F597 = {
+			isa = PBXGroup;
+			children = (
+				9BFAEA701EFA1F110010F597 /* DKRefresh */,
+				9BFAEA7E1EFA1F710010F597 /* DKRefreshDemo */,
+				9BFAEA6F1EFA1F110010F597 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BFAEA6F1EFA1F110010F597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BFAEA6E1EFA1F110010F597 /* DKRefresh.framework */,
+				9BFAEA7D1EFA1F710010F597 /* DKRefreshDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BFAEA701EFA1F110010F597 /* DKRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				9BFAEA711EFA1F110010F597 /* DKRefresh.h */,
+				9B0DFF811F974899009A1E7E /* DKRefresh.bundle */,
+				9BFAEA8F1EFA205D0010F597 /* source */,
+				9BFAEA721EFA1F110010F597 /* Info.plist */,
+			);
+			path = DKRefresh;
+			sourceTree = "<group>";
+		};
+		9BFAEA7E1EFA1F710010F597 /* DKRefreshDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9BFAEA7F1EFA1F710010F597 /* AppDelegate.swift */,
+				9B0DFF7F1F973575009A1E7E /* UIViewController+Example.swift */,
+				9BFAEA811EFA1F710010F597 /* DKExampleViewController.swift */,
+				9B0DFF7D1F973106009A1E7E /* DKTableViewController.swift */,
+				9B99D5571F98AE1E003D2184 /* DKCollectionViewController.swift */,
+				9B99D5591F998ED1003D2184 /* DKWebViewController.swift */,
+				9B99D54A1F9759AC003D2184 /* custom */,
+				9B5AAD491F96FF8D009D3E8E /* Example.swift */,
+				9BFAEA831EFA1F710010F597 /* Main.storyboard */,
+				9BFAEA861EFA1F710010F597 /* Assets.xcassets */,
+				9BFAEA881EFA1F710010F597 /* LaunchScreen.storyboard */,
+				9BFAEA8B1EFA1F710010F597 /* Info.plist */,
+			);
+			path = DKRefreshDemo;
+			sourceTree = "<group>";
+		};
+		9BFAEA8F1EFA205D0010F597 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				9BFAEA901EFA20B60010F597 /* DKRefreshComponent.swift */,
+				9B8EEECB1EFA6721007314B8 /* DKRefreshHeader.swift */,
+				9B8EEED11EFB9F04007314B8 /* DKRefreshStateHeader.swift */,
+				9B8EEECF1EFB7057007314B8 /* DKRefreshFooter.swift */,
+				9B8EEECD1EFA6CDC007314B8 /* UIScrollView+DKRefresh.swift */,
+				9BCE426E1F0F881E008B0CA4 /* DKRefreshNormalHeader.swift */,
+				9BCE42701F0F97B3008B0CA4 /* DKRefreshGifHeader.swift */,
+				9BCE42721F137C68008B0CA4 /* DKRefreshBackFooter.swift */,
+				9BCE42761F14C968008B0CA4 /* DKRefreshBackStateFooter.swift */,
+				9BCE427C1F1DBA3F008B0CA4 /* DKRefreshBackNormalFooter.swift */,
+				9BCE427E1F1DECEF008B0CA4 /* DKRefreshBackGifFooter.swift */,
+				9BCE42741F14B37A008B0CA4 /* DKRefreshAutoFooter.swift */,
+				9BCE42801F1F28CB008B0CA4 /* DKRefreshAutoStateFooter.swift */,
+				9BCE42821F1F4125008B0CA4 /* DKRefreshAutoNormalFooter.swift */,
+				9BCE42841F1F4381008B0CA4 /* DKRefreshAutoGifFooter.swift */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9BFAEA6B1EFA1F110010F597 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFAEA731EFA1F110010F597 /* DKRefresh.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9BFAEA6D1EFA1F110010F597 /* DKRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BFAEA761EFA1F110010F597 /* Build configuration list for PBXNativeTarget "DKRefresh" */;
+			buildPhases = (
+				9BFAEA691EFA1F110010F597 /* Sources */,
+				9BFAEA6A1EFA1F110010F597 /* Frameworks */,
+				9BFAEA6B1EFA1F110010F597 /* Headers */,
+				9BFAEA6C1EFA1F110010F597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKRefresh;
+			productName = DKRefresh;
+			productReference = 9BFAEA6E1EFA1F110010F597 /* DKRefresh.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9BFAEA7C1EFA1F710010F597 /* DKRefreshDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BFAEA8C1EFA1F710010F597 /* Build configuration list for PBXNativeTarget "DKRefreshDemo" */;
+			buildPhases = (
+				9BFAEA791EFA1F710010F597 /* Sources */,
+				9BFAEA7A1EFA1F710010F597 /* Frameworks */,
+				9BFAEA7B1EFA1F710010F597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKRefreshDemo;
+			productName = DKRefreshDemo;
+			productReference = 9BFAEA7D1EFA1F710010F597 /* DKRefreshDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BFAEA651EFA1F100010F597 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = lee;
+				TargetAttributes = {
+					9BFAEA6D1EFA1F110010F597 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					9BFAEA7C1EFA1F710010F597 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = UKK5542E4C;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 9BFAEA681EFA1F100010F597 /* Build configuration list for PBXProject "DKRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BFAEA641EFA1F100010F597;
+			productRefGroup = 9BFAEA6F1EFA1F110010F597 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BFAEA6D1EFA1F110010F597 /* DKRefresh */,
+				9BFAEA7C1EFA1F710010F597 /* DKRefreshDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BFAEA6C1EFA1F110010F597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0DFF821F974899009A1E7E /* DKRefresh.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFAEA7B1EFA1F710010F597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFAEA8A1EFA1F710010F597 /* LaunchScreen.storyboard in Resources */,
+				9BFAEA871EFA1F710010F597 /* Assets.xcassets in Resources */,
+				9BFAEA851EFA1F710010F597 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BFAEA691EFA1F110010F597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8EEECE1EFA6CDC007314B8 /* UIScrollView+DKRefresh.swift in Sources */,
+				9BCE42831F1F4125008B0CA4 /* DKRefreshAutoNormalFooter.swift in Sources */,
+				9B8EEED01EFB7057007314B8 /* DKRefreshFooter.swift in Sources */,
+				9BCE42731F137C68008B0CA4 /* DKRefreshBackFooter.swift in Sources */,
+				9BCE42851F1F4381008B0CA4 /* DKRefreshAutoGifFooter.swift in Sources */,
+				9BCE427F1F1DECEF008B0CA4 /* DKRefreshBackGifFooter.swift in Sources */,
+				9BCE42811F1F28CB008B0CA4 /* DKRefreshAutoStateFooter.swift in Sources */,
+				9BCE42751F14B37A008B0CA4 /* DKRefreshAutoFooter.swift in Sources */,
+				9BCE42771F14C968008B0CA4 /* DKRefreshBackStateFooter.swift in Sources */,
+				9BCE427D1F1DBA3F008B0CA4 /* DKRefreshBackNormalFooter.swift in Sources */,
+				9BCE426F1F0F881E008B0CA4 /* DKRefreshNormalHeader.swift in Sources */,
+				9BFAEA911EFA20B60010F597 /* DKRefreshComponent.swift in Sources */,
+				9BCE42711F0F97B3008B0CA4 /* DKRefreshGifHeader.swift in Sources */,
+				9B8EEED21EFB9F04007314B8 /* DKRefreshStateHeader.swift in Sources */,
+				9B8EEECC1EFA6721007314B8 /* DKRefreshHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFAEA791EFA1F710010F597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B99D5501F9877AC003D2184 /* DKChiBaoZiFooter.swift in Sources */,
+				9B99D54E1F97652E003D2184 /* DKDIYHeader.swift in Sources */,
+				9B99D54C1F975A5A003D2184 /* DKChiBaoZiHeader.swift in Sources */,
+				9B0DFF7E1F973106009A1E7E /* DKTableViewController.swift in Sources */,
+				9BFAEA821EFA1F710010F597 /* DKExampleViewController.swift in Sources */,
+				9BFAEA801EFA1F710010F597 /* AppDelegate.swift in Sources */,
+				9B99D5521F9899BA003D2184 /* DKChiBaoZiFooter2.swift in Sources */,
+				9B99D5541F989C22003D2184 /* DKDIYAutoFooter.swift in Sources */,
+				9B99D5561F98A00E003D2184 /* DKDIYBackFooter.swift in Sources */,
+				9B5AAD4A1F96FF8D009D3E8E /* Example.swift in Sources */,
+				9B99D55A1F998ED1003D2184 /* DKWebViewController.swift in Sources */,
+				9B99D5581F98AE1E003D2184 /* DKCollectionViewController.swift in Sources */,
+				9B0DFF801F973575009A1E7E /* UIViewController+Example.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BFAEA831EFA1F710010F597 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BFAEA841EFA1F710010F597 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BFAEA881EFA1F710010F597 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BFAEA891EFA1F710010F597 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BFAEA741EFA1F110010F597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9BFAEA751EFA1F110010F597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BFAEA771EFA1F110010F597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DKRefresh/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzmbl.DKRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		9BFAEA781EFA1F110010F597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DKRefresh/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzmbl.DKRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		9BFAEA8D1EFA1F710010F597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UKK5542E4C;
+				INFOPLIST_FILE = DKRefreshDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzmbl.DKRefreshDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ed8dc0e7-d4fb-49ca-a9bf-35b877814888";
+				PROVISIONING_PROFILE_SPECIFIER = "Xcode iOS Wildcard App";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		9BFAEA8E1EFA1F710010F597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DKRefreshDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzmbl.DKRefreshDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BFAEA681EFA1F100010F597 /* Build configuration list for PBXProject "DKRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFAEA741EFA1F110010F597 /* Debug */,
+				9BFAEA751EFA1F110010F597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BFAEA761EFA1F110010F597 /* Build configuration list for PBXNativeTarget "DKRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFAEA771EFA1F110010F597 /* Debug */,
+				9BFAEA781EFA1F110010F597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BFAEA8C1EFA1F710010F597 /* Build configuration list for PBXNativeTarget "DKRefreshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFAEA8D1EFA1F710010F597 /* Debug */,
+				9BFAEA8E1EFA1F710010F597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BFAEA651EFA1F100010F597 /* Project object */;
+}
